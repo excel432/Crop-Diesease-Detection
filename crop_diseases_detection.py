@@ -35,9 +35,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 print("All libraries imported successfully!")
 print(f"Tensorflow version: {tf.__version__}")
 
-# Install the Kaggle API client
-!pip install kaggle
-
+# Install the Kaggle API clienT
 # Create the .kaggle directory if it doesn't exist
 !mkdir -p ~/.kaggle
 
