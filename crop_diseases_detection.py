@@ -37,8 +37,6 @@ print(f"Tensorflow version: {tf.__version__}")
 
 # Install the Kaggle API clienT
 # Create the .kaggle directory if it doesn't exist
-!mkdir -p ~/.kaggle
-
 # Upload your kaggle.json file
 # After running this cell, click 'Choose Files' and select your kaggle.json
 from google.colab import files
